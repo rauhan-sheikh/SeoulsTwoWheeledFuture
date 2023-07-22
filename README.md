@@ -62,12 +62,12 @@ We made a pipeline with columntransformer containing date transformer, OneHotEnc
 We then added StandardScaler and tuned XGBRegressor.<br><br>
 We then pickled it and tested in [inference.ipynb](inference.ipynb).
 
-We then created commandline interface for user in [inference.py](src/inference.py)
+We then created flask app for users in [app.py](app.py)
 
 
 
 
 ## **Conclusion**
 The model is predicting Rental bike demand:<br><br>
-![Output Sample](src/output_sample.png)<br>
+![Output Sample](src/output_sample_2.png)<br>
 We can improve this project and it can help us move towards a more sustainable future. Embracing sustainable transportation is a vital step towards a more sustainable future. By reducing carbon emissions, improving air quality, enhancing energy efficiency, fostering innovation, and building resilient communities, we can mitigate the adverse impacts of transportation on our environment and work towards a greener society. It is imperative that governments, businesses, and individuals collaborate to support and invest in sustainable transportation solutions. Let us embrace this transformative journey and pave the way for a future free from fossil fuel pollution and the looming threat of climate change. Together, we can create a world where sustainable transportation is the norm, enabling us to lead more sustainable lives and leave a better planet for future generations.
